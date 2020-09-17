@@ -32,4 +32,36 @@ Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects/Project-1 (ma
 $ touch commands.txt
 
 Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects/Project-1 (master)
+$ vim commands.txt
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects/Project-1 (master)
+$ cd ..
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects (master)
+$ vim README.md
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects (master)
+$ git add *
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects (master)
+$ git commit -m "Initializing a New Repository"
+[master dfe27cb] Initializing a New Repository
+ 2 files changed, 37 insertions(+), 1 deletion(-)
+ create mode 100644 Project-1/commands.txt
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects (master)
+$ git push
+git: 'credential-cache' is not a git command. See 'git --help'.
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 734 bytes | 734.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AnthonyPalafox/CSS-Projects.git
+   f16c1d7..dfe27cb  master -> master
+
+Anthony Palafox@DESKTOP-ARJ0PVE MINGW64 ~/Desktop/CSS/CSS-Projects (master)
 $
